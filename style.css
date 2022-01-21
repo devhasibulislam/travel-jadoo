@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:wght@400;700&display=swap');
+
+:root {
+    --color-terracota: #df6951;
+    --default-box-shadow: 0px 0px 5px 0px #e1c7c7bf;
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-volkhov: 'Volkhov', serif;
+}
+
+a, p {
+    font-family: var(--font-poppins);
+}
+
+a {
+    color: black !important;
+}
+
+p, .category__heading {
+    color: #5E6282;
+}
+
+.hero__section {
+    background-image: url(images/banner/Decore.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner__title article h5 {
+    color: var(--color-terracota);
+    font-family: var(--font-poppins)
+}
+
+.banner__title article h1 {
+    font-size: 90px;
+    font-family: var(--font-volkhov);
+    line-height: 120px;
+}
+
+.banner__title article p {
+    font-family: var(--font-poppins);
+    line-height: 30px;
+}
+
+.play__button a i {
+    font-size: 50px;
+    color: var(--color-terracota);
+}
+
+.category__heading h4 {
+    font-size: 20px;
+    font-weight: unset;
+}
+
+.category__title h2 {
+    font-family: var(--font-volkhov);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.best__service {
+    background-image: url(images/group/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 10%;
+}
+
+.service__card {
+    box-shadow: var(--default-box-shadow);
+}
+
+.rec__bg {
+    position: relative;
+}
+
+.rec__bg>img {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+}
+
+.card__desc p {
+    font-size: 15px;
+}
+
+.brands div>img {
+    filter: grayscale(100%);
+    transition: filter 0.3s linear;
+}
+
+.brands div>img:hover{
+    filter: none;
+}
